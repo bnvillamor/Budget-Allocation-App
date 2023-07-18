@@ -1,1 +1,1 @@
-# coding-project-template
+Budgeting App for handling expenses
