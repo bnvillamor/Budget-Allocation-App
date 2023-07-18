@@ -9,30 +9,9 @@ const Currency = () => {
     const updatedCurrency = e.target.value;
     setNewCurrency(updatedCurrency);
   
-    let currencySymbol = '';
-    switch (updatedCurrency) {
-      case 'dollar':
-        currencySymbol = '$';
-        break;
-      case 'pound':
-        currencySymbol = '£';
-        break;
-      case 'euro':
-        currencySymbol = '€';
-        break;
-      case 'rupee':
-        currencySymbol = '₹';
-        break;
-      default:
-        currencySymbol = '';
-    }
-  
     dispatch({
       type: 'CHG_CURRENCY',
-      payload: {
-        currency: updatedCurrency,
-        symbol: currencySymbol,
-      },
+      payload: updatedCurrency,
     });
   };
 
@@ -53,10 +32,10 @@ const Currency = () => {
         value={newCurrency}
         onChange={handleCurrencyChange}
       >
-        <option value='dollar'>$ Dollar</option>
-        <option value='pound'>£ Pound</option>
-        <option value='euro'>€ Euro</option>
-        <option value='rupee'>₹ Rupee</option>
+        <option value='$'>$ Dollar</option>
+        <option value='£'>£ Pound</option>
+        <option value='€'>€ Euro</option>
+        <option value='₹'>₹ Rupee</option>
       </select>
     </div>
   );

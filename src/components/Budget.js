@@ -14,7 +14,7 @@ const Budget = () => {
             alert('Budget cannot exceed 20,000');
             setNewBudget(budget.toString());
         } else if (updatedBudget < totalExpenses) {
-            alert('Budget cannot be less than spent');
+            alert('You cannot reduce the budget value lower than the spending');
             setNewBudget(budget.toString());
         } else {
             setNewBudget(updatedBudget.toString());
