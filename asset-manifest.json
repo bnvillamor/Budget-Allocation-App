@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ejtos-react_budget_app/static/css/main.85768c17.css",
-    "main.js": "/ejtos-react_budget_app/static/js/main.aa89464d.js",
-    "static/js/787.7385fb95.chunk.js": "/ejtos-react_budget_app/static/js/787.7385fb95.chunk.js",
-    "index.html": "/ejtos-react_budget_app/index.html",
-    "main.85768c17.css.map": "/ejtos-react_budget_app/static/css/main.85768c17.css.map",
-    "main.aa89464d.js.map": "/ejtos-react_budget_app/static/js/main.aa89464d.js.map",
-    "787.7385fb95.chunk.js.map": "/ejtos-react_budget_app/static/js/787.7385fb95.chunk.js.map"
+    "main.css": "/Budget-Allocation-App/static/css/main.85768c17.css",
+    "main.js": "/Budget-Allocation-App/static/js/main.08e853e3.js",
+    "static/js/787.7385fb95.chunk.js": "/Budget-Allocation-App/static/js/787.7385fb95.chunk.js",
+    "index.html": "/Budget-Allocation-App/index.html",
+    "main.85768c17.css.map": "/Budget-Allocation-App/static/css/main.85768c17.css.map",
+    "main.08e853e3.js.map": "/Budget-Allocation-App/static/js/main.08e853e3.js.map",
+    "787.7385fb95.chunk.js.map": "/Budget-Allocation-App/static/js/787.7385fb95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85768c17.css",
-    "static/js/main.aa89464d.js"
+    "static/js/main.08e853e3.js"
   ]
 }
